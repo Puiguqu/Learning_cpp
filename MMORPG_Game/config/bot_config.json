@@ -1,0 +1,28 @@
+{
+    "movement": {
+        "durationMin": 1000,
+        "durationMax": 1400,
+        "delayMin": 200,
+        "delayMax": 400
+    },
+    "attack": {
+        "delayMin": 250,
+        "delayMax": 350,
+        "count": 3
+    },
+    "buff": {
+        "interval": 30,
+        "delayMin": 400,
+        "delayMax": 600
+    },
+    "general": {
+        "loopDelayMin": 250,
+        "loopDelayMax": 350,
+        "stuckDetectionTime": 5000,
+        "stuckJumpCount": 3
+    },
+    "window": {
+        "title": "MMORPG Game",
+        "requireActive": true
+    }
+} 
