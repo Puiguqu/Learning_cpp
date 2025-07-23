@@ -1,5 +1,9 @@
 #include "task_manager.hpp"
 #include <iostream>
+#include <string>
+#include <limits> 
+#include <fstream>
+#include <algorithm>
 
 int main() {
     TaskManager manager;
@@ -12,8 +16,11 @@ int main() {
 
         if (command == "add") {
             std::string title, date;
-            std::cout << "Title: "; std::cin.ignore(); std::getline(std::cin, title);
-            std::cout << "Due date: "; std::getline(std::cin, date);
+            std::cout << "Title: "; 
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // Clear entire buffer
+            std::getline(std::cin, title);
+            std::cout << "Due date: "; 
+            std::getline(std::cin, date);
             manager.add_task(title, date);
         } else if (command == "list") {
             manager.list_tasks();
