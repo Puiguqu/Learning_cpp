@@ -1,0 +1,10 @@
+^C:\USERS\PUIGU\DESKTOP\PROJECTS\LEARNING_CPP\BATTLE_SIM\BUILD\CMAKEFILES\3B46EAAE7F5ADD3B177219FBF9C592C5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/puigu/Desktop/Projects/Learning_cpp/battle_sim -BC:/Users/puigu/Desktop/Projects/Learning_cpp/battle_sim/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/puigu/Desktop/Projects/Learning_cpp/battle_sim/build/BattleSimulator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\puigu\Desktop\Projects\Learning_cpp\battle_sim\src\mage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\puigu\Desktop\Projects\Learning_cpp\battle_sim\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\puigu\Desktop\Projects\Learning_cpp\battle_sim\src\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\puigu\Desktop\Projects\Learning_cpp\battle_sim\src\warrior.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\puigu\Desktop\Projects\Learning_cpp\battle_sim\include\mage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\puigu\Desktop\Projects\Learning_cpp\battle_sim\include\player.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\puigu\Desktop\Projects\Learning_cpp\battle_sim\include\warrior.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\puigu\Desktop\Projects\Learning_cpp\battle_sim\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9CAE8AB4-C685-3FF9-AFF1-EE1278ED4CE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8BAFEF38-66ED-303F-A081-FF0A33C6D0AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
